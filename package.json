@@ -5,6 +5,7 @@
   "description": "El mejor curso de node por 0$",
   "main": "index.js",
   "scripts": {
+    "start": "node ./clase-3/app-js",
     "dev:1": "nodemon ./clase-2/1.http.js",
     "dev:2": "nodemon ./clase-2/2.routing.js",
     "dev:3": "nodemon ./clase-3/app.js",
