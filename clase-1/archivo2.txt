@@ -1,0 +1,3 @@
+Nombre del sistema operativo: win32
+Versión del sistema operativo: 10.0.19045
+Arquitectura: x64

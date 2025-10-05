@@ -1,0 +1,29 @@
+{
+  "name": "curso-node",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "El mejor curso de node por 0$",
+  "main": "index.js",
+  "scripts": {
+    "dev:1": "nodemon ./clase-2/1.http.js",
+    "dev:2": "nodemon ./clase-2/2.routing.js",
+    "dev:3": "nodemon ./clase-3/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "curso",
+    "node",
+    "nodejs",
+    "midudev"
+  ],
+  "author": "Benjamin Contreras",
+  "license": "MIT",
+  "dependencies": {
+    "express": "5.1.0",
+    "picocolors": "^1.1.1",
+    "zod": "4.1.11"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
