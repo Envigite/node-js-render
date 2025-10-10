@@ -9,6 +9,7 @@
     "dev:1": "nodemon ./clase-2/1.http.js",
     "dev:2": "nodemon ./clase-2/2.routing.js",
     "dev:3": "nodemon ./clase-3/app.js",
+    "dev:4": "nodemon ./clase-4/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -20,6 +21,7 @@
   "author": "Benjamin Contreras",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "5.1.0",
     "picocolors": "^1.1.1",
     "zod": "4.1.11"
