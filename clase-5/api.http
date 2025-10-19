@@ -2,7 +2,7 @@
 GET http://localhost:3000/movies
 
 ### Recuperar una película por id
-GET http://localhost:3000/movies/b6e03689-cccd-478e-8565-d92f40813b13
+GET http://localhost:3000/movies/baca2b2c-aa1e-11f0-b5df-88d7f640433a
 ### Recuperar todas las películas por un género
 GET http://localhost:3000/movies?genre=AdVenture
 
@@ -19,11 +19,11 @@ Content-Type: application/json
     "genre": [
       "Adventure"
     ],
-    "rate": 10.0
+    "rate": 9.0
   }
 
 ### Actualizar una película
-PATCH http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+PATCH http://localhost:3000/movies/baca2b2c-aa1e-11f0-b5df-88d7f640433a
 Content-Type: application/json
 
 {
@@ -31,5 +31,5 @@ Content-Type: application/json
 }
 
 ### Eliminar una película
-DELETE http://localhost:3000/movies/dcdd0fad-a94c-4810-8acc-5f108d3b18c3
+DELETE http://localhost:3000/movies/feb0d6c4-aa29-11f0-b5df-88d7f640433a
 Content-Type: application/json
